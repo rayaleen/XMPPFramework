@@ -68,7 +68,7 @@
 	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setFormatterBehavior:NSDateFormatterBehavior10_4];
 	[dateFormatter setDateFormat:dateFormat];
-	[dateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
+	[dateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:28800]];
 	
 	NSString *str = [dateFormatter stringFromDate:self];
 	

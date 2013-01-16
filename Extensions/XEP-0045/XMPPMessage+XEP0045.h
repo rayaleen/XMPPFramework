@@ -6,5 +6,5 @@
 
 - (BOOL)isGroupChatMessage;
 - (BOOL)isGroupChatMessageWithBody;
-
+- (NSString *)declineFromString;
 @end
