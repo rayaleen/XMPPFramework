@@ -22,55 +22,31 @@
 //  THIS HEADER FILE SHOULD BE TAILORED TO MATCH YOUR APPLICATION.
 
 
-#import "XMPPJID.h"
-#import "XMPPStream.h"
-#import "XMPPElement.h"
-#import "XMPPIQ.h"
-#import "XMPPMessage.h"
-#import "XMPPPresence.h"
+#import "XMPP.h"
+
+// List the modules you're using here.
+
 #import "XMPPReconnect.h"
+
 #import "XMPPRoster.h"
 #import "XMPPRosterCoreDataStorage.h"
+
 #import "XMPPvCardTempModule.h"
 #import "XMPPvCardAvatarModule.h"
 #import "XMPPvCardCoreDataStorage.h"
+
 #import "XMPPCapabilities.h"
 #import "XMPPCapabilitiesCoreDataStorage.h"
-#import "XMPPMUC.h"
-#import "XMPPRoomCoreDataStorage.h"
+
 #import "XMPPMessageArchiving.h"
 #import "XMPPMessageArchivingCoreDataStorage.h"
+
+#import "XMPPMUC.h"
+#import "XMPPRoomCoreDataStorage.h"
 #import "XMPPRoom.h"
-#import "XMPPPing.h"
-#import "XMPPModule.h"
-
-// 
-// Authentication
-// 
-
-#import "XMPPSASLAuthentication.h"
-#import "XMPPDigestMD5Authentication.h"
-#import "XMPPPlainAuthentication.h"
-#import "XMPPXFacebookPlatformAuthentication.h"
-#import "XMPPAnonymousAuthentication.h"
-#import "XMPPDeprecatedPlainAuthentication.h"
-#import "XMPPDeprecatedDigestAuthentication.h"
-
-// 
-// Categories
-// 
-
-#import "NSXMLElement+XMPP.h"
 #import "XMPPMessage+XEP0045.h"
 #import "XMPPMessage+XEP_0184.h"
 #import "XMPPIQ+XEP_0055.h"
 #import "NSDate+XMPPDateTimeProfiles.h"
 #import "XMPPElement+Delay.h"
-// List the modules you're using here.
-
-
-
-
-
-
-
+#import "XMPPPing.h"
